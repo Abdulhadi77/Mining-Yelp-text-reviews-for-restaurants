@@ -47,8 +47,8 @@
 * Initially ranked restaurants by calculating the proportion of dish appearances in each restaurant's reviews
   * This simple approach leads to restaurants with few reviews can achieve 100% review appearances for a single dish
   * Visual:<br>![png](ntbk-imgs/task04%2605-rank-dishes-and-restaurants_20_0.png)
-* Adjusted rank by review Stars
-  * As in ranking dishes, point scale adjusted from [1, 5] to [-1, 1] such that low scoring reviews reduce a dish's popularity for a specific restaurant
+* Adjusted rank by review of Stars
+  * As in ranking dishes, the point scale is adjusted from [1, 5] to [-1, 1] such that low-scoring reviews reduce a dish's popularity for a specific restaurant
   * Visual:<br>![png](ntbk-imgs/task04%2605-rank-dishes-and-restaurants_25_0.png)
 * Visualized top ranking restaurants and dishes:<br>![png](ntbk-imgs/task04%2605-rank-dishes-and-restaurants_31_0.png)
   
